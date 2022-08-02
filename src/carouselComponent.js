@@ -1,6 +1,7 @@
 import  Carousel  from "react-bootstrap/Carousel";
-import webpics2  from './images/webpics2.jpg'
-import webpics3  from './images/webpics3.jpg'
+import Tobi from './images/Tobi.jpg'
+import Emmi from './images/Emmi.jpg'
+import webpics2 from './images/webpics2.jpg'
 
 
 
@@ -11,37 +12,37 @@ const CarouselComponent = () => {
                 <Carousel.Item className="sliderHeight">
                     <img
                         className="d-block w-100"
-                        src={webpics3}
+                        src={Tobi}
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3 className="sliderText">First slide label</h3>
-                        <p className="sliderText">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3 className="sliderText">PRUDENCE EKI</h3>
+                        <p className="sliderText">TOBI AMUSAN has made Nigeria proud by winning the World 100m race Competition.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className="sliderHeight">
+                    <img
+                        className="d-block w-100"
+                        src={Emmi}
+                        alt="Second slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3 className="sliderText">EBUBE NWAGBO</h3>
+                        <p className="sliderText">TECH4DEV in conjuction with EMMI Delta is currently training 150 youths on professional skills.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="sliderHeight">
                     <img
                         className="d-block w-100"
                         src={webpics2}
-                        alt="Second slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3 className="sliderText">Second slide label</h3>
-                        <p className="sliderText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item className="sliderHeight">
-                    <img
-                        className="d-block w-100"
-                        src={webpics3}
                         alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                        <h3 className="sliderText">Third slide label</h3>
+                        <h3 className="sliderText">DANIEL ODIACHI</h3>
                         <p className="sliderText">
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            Learning coding involves devotion of time and attention. A full Stack Developer does both Frontend and Backend.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>

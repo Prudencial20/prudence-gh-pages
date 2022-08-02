@@ -1,19 +1,18 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import imageFile from './images/webpage.jpg.JPG'
+import Peter2 from './images/Peter2.jpg'
 
 const ContentColumn = () => {
     return (
         <div>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={imageFile} />
+                <Card.Img variant="top" src={Peter2} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Politics</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Peter Obi of the Labour Party is the only hope for Nigeria -Daniel Odiachi
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary">Read More</Button>
                 </Card.Body>
             </Card>
         </div>

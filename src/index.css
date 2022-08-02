@@ -14,10 +14,15 @@ code {
 }
 .navHead {
   display: inline;
+  font-size: large;
+}
+.nav.links{
+  color: #f2f2f2;
 }
 .sliderHeight {
   max-height: 80vh;
 }
 .sliderText{
-  color: #f2f2f2;
+  color: rgb(26, 13, 13);
+  font-weight: bolder;
 }
