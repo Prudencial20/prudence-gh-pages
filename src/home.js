@@ -20,6 +20,7 @@ const Home = () => {
         <div>
                 <Row className='container-fluid mt-5'>
                     <h3>My name is {name}</h3>
+                    <p> I love Coding</p>
                     <Button onClick={handleClick}>Click to change my name</Button>
                     <Col xs={12} md={4} lg={3}>
                         <div className='p-3'>
